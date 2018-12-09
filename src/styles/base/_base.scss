@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.center {
+    position: relative;
+    width: 111rem;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-block {
+    margin-top: 14rem;
+    text-align: center;
+
+    &-sub {
+        color: #757588;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+    }
+
+    &-title {
+        padding-top: 2rem;
+        color: #2c308e;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 2.2px;
+    }
+
+    &-underline {
+        width: 160px;
+        height: 4px;
+        margin: 3rem auto 8rem auto;
+        border-radius: 2px;
+        background-color: #f5b80e;
+    }
+}
+
+.position-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

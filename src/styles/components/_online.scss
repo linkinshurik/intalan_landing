@@ -1,0 +1,62 @@
+.online {
+    height: 74rem;
+    display: flex;
+    justify-content: space-between;
+
+    &-block {
+        display: flex;
+        justify-content: space-between;    
+    
+        &-item {
+            position: relative;
+            width: 35rem;
+            height: 42.5rem;
+            border-radius: 16px;
+            text-align: center;
+            background-color: #f5f5f7;
+            
+            &-logo {
+                padding: 4rem 0;
+                filter: grayscale(100%);
+            }
+
+            &-btn {
+                position: absolute;
+                bottom: 4rem;
+                width: 100%;
+            }
+
+            h1, p {
+                opacity: 0.6;
+                font-size: 1.4rem;
+            }
+
+            h1 {
+                color: #2c2d3f;
+                font-weight: 700;
+                letter-spacing: 0.7px;
+                padding-bottom: 2rem;
+            }
+
+            p {
+                color: #757588;
+                font-weight: 400;
+                letter-spacing: 0.28px;
+                line-height: 24px;
+            }
+
+            &:hover {
+                box-shadow: 0 8px 32px rgba(0, 131, 179, 0.2);
+                background-color: #ffffff;
+
+                h1, p {
+                    opacity: 1;
+                }
+
+                .online-block-item-logo {
+                    filter: grayscale(0%);
+                }
+            }
+        }
+    }
+}

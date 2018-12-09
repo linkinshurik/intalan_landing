@@ -1,0 +1,35 @@
+body {
+    font-family: Roboto;
+}
+
+.text {
+    font-weight: 700;
+
+    &-xs {
+        font-size: 1.4rem;
+    }
+    &-s {
+        font-size: 1.6rem;
+    }
+    &-l {
+        font-size: 1.8rem;
+    }
+    &-xl {}
+
+    &--underline {
+        text-decoration: underline;
+    }
+
+    &-space {
+        padding: 0 4px;
+    }
+
+    &-disabled {
+        color: #777;
+    }
+
+    &-active {
+        border-bottom: 4px solid #f5b80e;
+        border-radius: 2px;
+    }
+}
