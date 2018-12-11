@@ -1,6 +1,11 @@
 .documents {
-    background: url('../img/documents-bg.jpg') center top no-repeat;
     margin-top: 10rem;
+
+    &-baner {
+        height: 62rem;
+        background: url('../img/documents-bg.jpg') center top no-repeat;
+        background-size: cover;
+    }
 
     .header-block {
         margin-top: 0;
@@ -10,7 +15,7 @@
     &-block {
         display: flex;
         justify-content: space-between;
-        padding-top: 12rem;
+        margin-top: -8rem;
 
         &-item {
             position: relative;
