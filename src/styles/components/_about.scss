@@ -1,7 +1,7 @@
 .about {
-    // height: 80rem;
     color: #2c2d3f;
     position: relative;
+    padding-top: 14rem;
 
     &-container {
         display: flex;
@@ -10,7 +10,7 @@
 
     &-gradient {
         position: absolute;
-        top: 0;
+        top: 9rem;
         right: 0;
         z-index: -1;
     }

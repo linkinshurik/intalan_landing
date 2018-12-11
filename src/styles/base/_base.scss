@@ -14,15 +14,14 @@ body {
     box-sizing: border-box;
 }
 
-.center {
+.container {
     position: relative;
-    width: 111rem;
+    width: 1110px;
     height: 100%;
     margin: 0 auto;
 }
 
 .header-block {
-    margin-top: 14rem;
     text-align: center;
 
     &-sub {
@@ -49,7 +48,7 @@ body {
     }
 }
 
-.position-center {
+.text-center {
     position: absolute;
     left: 50%;
     top: 50%;
