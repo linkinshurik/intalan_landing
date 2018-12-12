@@ -45,7 +45,6 @@
 
     &-title {
         color: #fff;
-        line-height: 64px;
         position: absolute;
         top: 50vh;
         transform: translateY(-50%);
@@ -54,12 +53,29 @@
             font-size: 56px;
             font-weight: 700;
             letter-spacing: 11.2px;
+            padding-bottom: 3rem;
         }
 
         h2 {
             font-size: 35px;
             font-weight: 400;
             letter-spacing: 1.75px;
+            padding-bottom: 5rem;
+        }
+
+        &-btn {
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                background: url('../img/icon-play.svg') center no-repeat;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 2.5rem;
+            }
         }
     }
 
