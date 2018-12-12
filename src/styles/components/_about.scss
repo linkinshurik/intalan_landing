@@ -16,15 +16,18 @@
     }
 
     &-left {
+        display: inline-block;
         width: 50%;
 
         &-img {
-            width: 100%;
-            margin-left: -100px;
+            height: 100%;
+            width: auto;
+            margin-left: -175px;
         }
     }
     &-right {
-        width: 50%;
+        display: inline-block;
+        width: 49%;
         padding: 0 10px;
 
         h1 {
